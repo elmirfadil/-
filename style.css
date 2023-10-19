@@ -1,0 +1,757 @@
+*{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+height: 1000px;
+}
+body{
+    background: #000;
+}
+button{
+    border: none;
+}
+ button:hover{
+    color: white;
+    background: red;
+ }
+.ux{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    width: 1170px;
+    height: 62px;
+    border-radius: 12px;
+border: 3px solid #F00;
+background: rgba(121, 116, 116, 0.10);
+backdrop-filter: blur(7.5px);
+}
+.ux-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ux-a{
+    margin-left: 160px;
+}
+.ux-a a{
+    margin: 0 20px ;
+    color: #FFF;
+font-size: 14px;
+font-weight: 600;
+}
+.ux-start button{
+   width: 220px;
+    height: 48px;
+    border-radius: 7px;
+border: 3px solid #FFF;
+background: rgba(121, 116, 116, 0.10);
+backdrop-filter: blur(7.5px);
+margin: 7px 7px;
+}
+.ux-start span{
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+}
+/* UX-END */
+/* ЛОГИКА */
+
+.logics-img{
+    position: absolute;
+    top: 290px;
+    left: 10px;
+    animation: start-img 2s infinite;
+}
+@keyframes start-img{
+    0%{
+        transform: translateX(-1000px);
+    }
+}
+.logics-start img{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+.logics-start h1{
+    color: #FFF;
+font-size: 144px;
+font-weight: 700;
+letter-spacing: 9.36px;
+position: absolute;
+top: 210px;
+left: 480px;
+}
+.logics-start div{
+    position: absolute;
+    top: 360px;
+    left: 595px;
+    width: 335px;
+height: 3px;
+background: #F00;
+}
+.logics-start h2{
+    color: #FFF;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 2.145px;
+    position: absolute;
+    top: 380px;
+    left: 490px;
+}
+.logics-start button{
+    width: 170px;
+height: 40px;
+border-radius: 27px;
+background: #FFF;
+color: #000;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.91px;
+position: absolute;
+top: 470px;
+left: 670px;
+transition: 1s;
+}
+.logics-start button:hover{
+    background: #F00;
+    color: #fff;
+    transition: 1s;
+}
+.logics-start h5{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 1.56px;
+position: absolute;
+top: 560px;
+left: 400px;
+}
+.start-2{
+    position: absolute;
+    top: 110px;
+    left: 880px;
+    animation: start-img1 2s infinite;
+}
+@keyframes start-img1{
+    0%{
+        transform: translateY(100px);
+    }
+    40%{
+        transform: translateY(-100px);
+    }
+    80%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+
+/* ЛОГИКА-END */
+/* ENTERPRICE */
+.enter-img{
+    position: absolute;
+    top: 830px;
+    left: 150px;
+}
+
+.lin{
+    position: absolute;
+    top: 840px;
+   left: 675px;
+    width: 180px;
+height: 3px;
+background: #F00;
+}
+.enter-start h1{
+    color: #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+position: absolute;
+top: 850px;
+left: 700px;
+}
+.enter-start h5{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.56px;
+    position: absolute;
+    top: 930px;
+    left: 160px ;
+}
+.enter-block h5{
+    margin: 10px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.enter-block div{
+    width: 121px;
+height: 2px;
+background: #F00;
+position: absolute;
+top: 237px;
+left: 40px;
+}
+.enter-block{
+    position: absolute;
+    top: 1090px;
+    left: 250px;
+}
+.enter-block2 div{
+    width: 121px;
+height: 2px;
+background: #F00;
+position: absolute;
+top: 237px;
+left: 40px;
+}
+.enter-block2 h5{
+    margin: 10px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.enter-block2 {
+    position: absolute;
+    top: 1090px;
+    left: 660px;
+}
+.enter-block3 div{
+    width: 121px;
+    height: 2px;
+    background: #F00;
+    position: absolute;
+    top: 237px;
+    left: 40px; 
+}
+.enter-block3 h5{
+    margin: 10px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.enter-block3 {
+    position: absolute;
+    top: 1090px;
+    left: 1070px;
+}
+.enter-right{
+    position: absolute;
+    top: 1410px;
+    left: 160px;
+}
+.enter-right div{
+    width: 232px;
+height: 3px;
+background: #F00;
+position: absolute;
+left: 170px;
+}
+.enter-right h1{
+    margin: 20px 0;
+    color: #FFF;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 1.95px;}
+.enter-right h5{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+}
+.enter-left{
+    position: absolute;
+    top: 1410px;
+    left: 830px;
+}
+.enter-left div{
+    width: 232px;
+    height: 3px;
+    background: #F00;
+    position: absolute;
+    left: 155px; 
+}
+.enter-left h1{
+    margin: 20px 0;
+    color: #FFF;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 1.95px;}
+.enter-left h5{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+}
+.enter button{
+    position: absolute;
+    top: 1670px;
+    left: 680px;
+    width: 179px;
+height: 45px;
+border-radius: 27px;
+background: #FFF;
+color: #000;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.91px;
+transition: 1s;
+}
+.enter button:hover{
+    background: #F00;
+    color: #fff;
+    transition: 1s;
+}
+.hand-1{
+    width: 700px;
+height: 1000px;
+    position: absolute;
+    top: 1390px;
+    left: 10px;
+    animation: hand1 2s infinite;
+    }
+    @keyframes hand1{
+        0%{
+            transform: translateY(100px);
+        }
+        40%{
+            transform: translateY(-100px);
+        }
+        80%{
+            transform: translateY(50px);
+        }
+        100%{
+            transform: translateY(-50px);
+        }
+    }
+.hand-2{
+    position: absolute;
+    top: 1390px;
+    left:870px;
+    animation: hand2 2s infinite;
+}
+@keyframes hand2{
+    0%{
+        transform: translateX(300px);
+    }
+}
+/* ENTERPRICE-END */
+/* ПОРТФОЛИО  */
+.port-start div{
+    width: 364px;
+height: 3px;
+background: #F00;
+position: absolute;
+top: 2030px;
+left: 570px;
+}
+.port-start h1{
+    position: absolute;
+    top: 2040px;
+    left: 635px;
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+}
+.color2{
+    position: absolute;
+    top: 1770px;
+    left: -50px;
+}
+.magazine1{
+    position: absolute;
+    top: 2150px;
+    left: 100px;
+}
+.port-start h5{
+    position: absolute;
+    top: 2250px;
+    left: 690px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+}
+.port-start button{
+    width: 206px;
+height: 55px;
+border-radius: 51px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+top: 2370px;
+left: 860px;
+}
+.port-start button:hover{
+
+}
+.color3{
+    position: absolute;
+    top: 2240px;
+    left: 600px;
+}
+.start-1 h5{
+    position: absolute;
+    top: 2670px;
+    left: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+}
+.start-1 button{
+    width: 206px;
+height: 55px;
+border-radius: 51px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+top: 2780px;
+left: 320px;}
+
+
+.start-1 img{
+    position: absolute;
+    top: 2600px;
+    left: 990px;
+}
+
+.color4{
+    position: absolute;
+    top: 2690px;
+    left: -40px;
+}
+.right-2 h5{
+    position: absolute;
+    top: 3190px;
+    left: 700px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+}
+.right-2 button{
+    width: 206px;
+height: 55px;
+border-radius: 51px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+top: 3300px;
+left: 890px;}
+.right-2 img{
+    position: absolute;
+    top: 3060px;
+    left: 110px;
+}
+.color5{
+    position: absolute;
+    top: 3200px;
+    left: 620px;
+}
+.left-3 h5{
+    position: absolute;
+    top: 3580px;
+    left: 180px;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+}
+.left-3 button{
+    width: 206px;
+    height: 55px;
+    border-radius: 51px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+top: 3710px;
+left: 340px;
+}
+.left-3 img{
+    position: absolute;
+    top: 3500px;
+    left: 990px; 
+}
+.center button {
+    position: absolute;
+    top: 4000px;
+    left: 670px;
+    width: 176px;
+height: 45px;
+border-radius: 27px;
+background: #FFF;
+color: #000;
+font-size: 14px;
+font-weight: 700;
+}
+.hand-3{
+    position: absolute;
+    top: 3780px;
+    left: -0px;
+    animation: hand1 2s infinite;
+}
+.hand-4{
+    position: absolute;
+    top: 3770px;
+    left: 780px;
+    animation: hand1 2s infinite;
+}
+ /* ПОРТФОЛИО-END */
+ /* REVIEW */
+.lin1{
+    position: absolute;
+    top: 4480px;
+    left: 630px;
+    width: 250px;
+height: 3px;
+background: #F00;
+}
+ .review h1{
+    position: absolute;
+   top: 4500px;
+    left: 670px;
+    color: #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+ }
+ .comit-1{
+    position: absolute;
+    top: 4650px;
+    left: 140px;
+ }
+ .comit2{
+    position: absolute;
+    top: 4650px;
+    left: 600px;
+ }
+ .comit-3{
+    position: absolute;
+    top: 4630px;
+    left: 220px;
+ }
+ .come1{
+    position: absolute;
+    top: 4780px;
+    left: 190px;
+ }
+ .come2{
+    position: absolute;
+    top: 4780px;
+    left: 1230px;
+ }
+ .zip{
+    position: absolute;
+    top: 5040px;
+    left: 710px;
+ }
+ .zip button{
+    position: absolute;
+    top: 90px;
+    left: -55px;
+    width: 176px;
+height: 44px;
+border-radius: 27px;
+background: #FFF;
+color: #000;
+font-size: 14px;
+font-weight: 700;
+ }
+ /* REVIEW-END */
+ /* FOOTER */
+ .footer div{
+    width: 550px;
+height: 3px;
+background: #F00;
+position: absolute;
+top: 5400px;
+left: 460px;
+ }
+ .footer h1{
+    position: absolute;
+    margin-top: 410px;
+    left: 460px;
+    color: #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+ }
+ .footer-start h4{
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+margin-top: 505px;
+left: 290px;
+ }
+ .footer-start input{
+    width: 370px;
+    height: 75px;
+    border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+padding: 0 20px;
+position: absolute;
+margin-top: 530px;
+left: 270px;
+ }
+ .footer-start-1 h4{
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+margin-top: 500px; 
+left: 800px; 
+ }
+ .footer-start-1 input{
+    width: 370px;
+    height: 75px;
+    border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+padding: 0 20px;
+position: absolute;
+margin-top: 532px;
+left: 780px;
+ }
+ .footer-start-2 h4{
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+margin-top: 650px;
+left: 285px;
+ }
+ .footer-start-2 input{
+    width: 812px;
+height: 133px;
+border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+padding: 0 20px;
+position: absolute;
+margin-top: 680px;
+left: 267px;
+ }
+ .footer-right h3{
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 1.56px;
+position: absolute;
+margin-top: 830px;
+left: 290px;
+ }
+ .sms img{
+    position: absolute;
+    margin-top: 833px;
+    left: 440px;
+ }
+
+ .sms h4{
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+margin-top: 837px;
+left: 470px;
+ }
+ .call img{
+    position: absolute;
+    margin-top: 832px;
+    left: 600px;
+ }
+ .call h4{
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+margin-top: 835px;
+left: 630px;
+ }
+ .footer-right button{
+    width: 188px;
+height: 54px;
+border-radius: 7px;
+background: #FFF;
+color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+position: absolute;
+margin-top: 890px;
+left: 260px;
+ }
+ .hand5{
+    position: absolute;
+    margin-top: 1000px;
+    left: 290px;
+    animation: hand5 2s infinite;
+ }
+ @keyframes hand5{
+    0%{
+        transform: rotateY(200deg);
+    }
+   
+ }
